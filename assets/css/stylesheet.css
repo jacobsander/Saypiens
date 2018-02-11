@@ -7,14 +7,7 @@
 
 .jumbotron{
   height: 100%;
-  background-size: cover;
-  background-repeat:no-repeat;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
-	background-position:center;
-  background-color: black;
+  background-color: #fffaF0;
 }
 
 .display-4{
@@ -22,6 +15,9 @@
   color: white;
   padding-top: 10%;
   font-size: 5rem;
+  font-family: Palatino;
+  text-shadow: 0 0 15px rgba(0,0,0,0.1);
+
 }
 
 .lead{
@@ -95,7 +91,12 @@ h3 {
 /* TEXT AREAS */
 
 .row{
-  padding-top: 10em;
+width: 100%;
+margin: 0;
+}
+
+.medium-text, .platform-text, .aim-text{
+  padding-top: 5em;
 }
 
 p {
@@ -103,40 +104,38 @@ p {
   font-family: "HelveticaNeue-Ultralight";
   font-size: 2em;
   padding-left: 2em;
+  padding-right: 2em
 }
 
-.img-1{
-  padding-left: 10em;
+.col-6{
+  padding: 0;
+  height: 100%;
 }
 
 .text{
   height: 800px;
-  margin-top: 2em;
 }
 
+.img-1{
+  height: 800px;
+}
 
 hr{
   margin: 0;
+  border-top: none;
 }
 
 /* CONTACT SECTION */
 
-.contact{
-  height: 800px;
-  background-color: coral;
-}
-
-/* FOOTER SECTION */
-.footer{
-  text-align: center;
-  font-size: 1em;
+.contact-wrapper{
+  padding-top: 9em;
 }
 
 .launch{
 
   color: white;
-  font-size: 6em;
-  font-family: 'Caveat Brush', cursive;
+  font-size: 4em;
+  font-family: "HelveticaNeue-Ultralight";
   margin-top: 0;
   word-break: normal;
   text-transform: uppercase;
@@ -144,4 +143,24 @@ hr{
   margin: auto;
   padding-top: 2em;
 
+}
+
+.contact{
+  height: 800px;
+  background-color: coral;
+}
+
+.form-control{
+  width: 70%;
+  margin: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+
+/* FOOTER SECTION */
+.footer{
+  text-align: center;
+  font-size: 1em;
 }
