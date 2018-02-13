@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <link href="https://fonts.googleapis.com/css?family=Caveat|Caveat+Brush" rel="stylesheet">
-  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+
   <title>Saypiens</title>
 
   <!--Bootstrap Core CSS-->
@@ -18,19 +18,27 @@
 
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
 
+  
+
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".sidenav" data-offset="50">
 
   <!-- Side navigation -->
   <div class="sidenav">
-    <a id="sidebar-1" href="#">|</a>
-    <a id="sidebar-2" href="#description">|</a>
-    <a id="sidebar-3" href="#launch">|</a>
+
+<a id="sidebar-1" href="#start"> <img class="dot" src="assets/img/dot.png"></a>
+<a id="sidebar-2" href="#intro"> <img class="dot" src="assets/img/dot.png"></a>
+<a id="sidebar-3" href="#platform"><img class="dot" src="assets/img/dot.png"></a>
+<a id="sidebar-4" href="#medium"><img class="dot" src="assets/img/dot.png"></a>
+<a id="sidebar-5" href="#aim"><img class="dot" src="assets/img/dot.png"></a>
+
+
+
   </div>
 
-
+  <div id="start"></div>
   <ul class="nav">
     <li class="nav-item">
       <a class="nav-link" href="#launch">Join</a>
@@ -57,7 +65,7 @@
   </section>
 
   <section class="description-section">
-
+    <div id="intro"></div>
     <div class="text-wrapper">
 
       <div class="intro-text">
@@ -82,8 +90,7 @@
   </section>
 
   <section class="text">
-    <div id="description">
-    </div>
+    <div id="platform"></div>
     <div class="row">
 
 
@@ -111,7 +118,7 @@
 
 
   <section class="text">
-
+    <div id="medium"></div>
     <div class="row">
 
       <div class="col-6">
@@ -135,7 +142,7 @@
   <hr>
 
   <section class="text">
-
+    <div id="aim"></div>
     <div class="row">
 
 
@@ -172,25 +179,30 @@
         <div class="container">
 
           <!-- Begin MailChimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-<form action="https://saypiens.us17.list-manage.com/subscribe/post?u=a49b9e500a14e0f1c1e78c7e7&amp;id=ed123c1dbb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-	
-	<input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="email address" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a49b9e500a14e0f1c1e78c7e7_ed123c1dbb" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-light"></div>
-    </div>
-</form>
-</div>
 
-<!--End mc_embed_signup-->
+          <style type="text/css">
+            #mc_embed_signup {
+              background: #fff;
+              clear: left;
+              font: 14px Helvetica, Arial, sans-serif;
+            }
+
+            /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	         We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+          </style>
+          <div id="mc_embed_signup">
+            <form action="https://saypiens.us17.list-manage.com/subscribe/post?u=a49b9e500a14e0f1c1e78c7e7&amp;id=ed123c1dbb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+
+                <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="email address" required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a49b9e500a14e0f1c1e78c7e7_ed123c1dbb" tabindex="-1" value=""></div>
+                <br><div class="clear"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-light"></div>
+              </div>
+            </form>
+          </div>
+
+          <!--End mc_embed_signup-->
 
         </div>
       </div>
@@ -212,6 +224,7 @@
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/typewriter.js"></script>
   <script src="assets/js/custom.js"></script>
+  <script type="text/javascript" src="path/to/smoothscroll.min.js"></script>
 
 </body>
 

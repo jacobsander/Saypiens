@@ -1,5 +1,22 @@
-
+body{
+  position: relative;
+}
 /* SIDE NAVBAR */
+
+.dot{
+  height: 20px;
+  width: 20px;
+}
+
+.dot:hover{
+  height: 30px;
+  width: 30px;
+}
+
+#sidebar-1, #sidebar-2, #sidebar-3, #sidebar-4, #sidebar-5{
+  padding-top: 0;
+  padding-bottom: 0;
+}
 
 /* The sidebar menu */
 .sidenav {
@@ -37,7 +54,6 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
-
 
 
 /* HERO SECTION */
@@ -240,8 +256,14 @@ hr{
   width: 70%;
   margin: auto;
   margin-top: 3em;
-  margin-bottom: 3em;
   text-align: center;
+}
+
+
+
+#mc-embedded-subscribe{
+  margin-top: 2em;
+
 }
 
 
@@ -308,6 +330,10 @@ body{
 
 #launch{
   padding-top: 20px;
+}
+
+#typedtext{
+  font-size: 2rem;
 }
 
   .form-control{
